@@ -8,26 +8,41 @@ Subscribe to my YT [channel](https://www.youtube.com/@raj_talks_tech/) as I will
 
 ## Demo
 
+## Quickstart
+
+### 🗃️ Pre-requisites
+
+- Create a free account and get an OPEN_AI key from platform.openai.com
+- Create a free account and get access to PineconeDB
+- And populate your `.env` file with the required information.
+
+```bash
+npm run prepare:data
+npm run dev
+```
+
 ## How does it work ?
 
 This project is similar to the `pdf-chat-ai-sdk` project but the secret sauce is that how the HTML content is split into chunks. It uses a library called `unstructured`.
 
-And another special ability is that there is an intermediate step to prepare metadata-filers for our pineconeDB under `lib/prompt-tempate.ts`
+And another special ability is that there is an intermediate step to prepare metadata-filers for our pineconeDB under `lib/prompt-tempate.ts`.
 
-I have used https://ui.shadcn.com/docs/ to prepare my data.
+I have used https://ui.shadcn.com/docs/ to prepare my data, under `scripts/data.ts`.
 
-## Setup
+## Full Setup
 
 ### Data-preparation using Python
 
-- First we scrape all the relevant urls from the target HTML document and prepare a urls.text file
+- First we scrape all the relevant urls from the target HTML document and prepare a urls.text file.
 - Then we use the urls.txt file to go through all the pages and use `unstructured` api to split the pages into context-aware HTML chunks.
 - And finally we prepare the chunks and create our `data.ts` file
-- Full code is on my [google-collab](https://colab.research.google.com/drive/1ZZHsblrieO4yDv3iodolAnELZ9oSlZp8?usp=sharing)
+- Full code is on my [google-collab](https://colab.research.google.com/drive/1ZZHsblrieO4yDv3iodolAnELZ9oSlZp8?usp=sharing).
+
+## Running the project
 
 ### Data-loading using Node.js
 
-- We download the `data.ts` file and format it in our IDE and run `npm run prepare:data` to populate our pineconeDB
+- We download the `data.ts` file and format it in our IDE and run `npm run prepare:data` to populate our pineconeDB.
 
 ### Talking to our HTML
 
@@ -44,12 +59,6 @@ Built with:
 - ✅ Langchain TypeScript integration
 - ✅ PineconeDB as the knowledge store
 - ✅ Dark Mode with persistent theme-switching
-
-## 🗃️ Pre-requisites
-
-- Create a free account and get an OPEN_AI key from platform.openai.com
-- Create a free account and get access to PineconeDB
-- And populate your `.env` file with the required information.
 
 ## 💬 Good to know
 
