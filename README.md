@@ -8,6 +8,9 @@ Subscribe to my YT [channel](https://www.youtube.com/@raj_talks_tech/) as I will
 
 ## Demo
 
+https://github.com/rajeshdavidbabu/html-chat-ai-sdk/assets/15684795/6a2580a8-15ee-4e41-ab8f-ac325c9efcdb
+
+
 ## 🔮 Quickstart
 
 (Using https://ui.shadcn.com/docs/ scraped and prepared under `scripts/data.ts`)
@@ -47,9 +50,7 @@ And another special ability is that there is an intermediate step to prepare met
 
 I have used https://ui.shadcn.com/docs/ to prepare my data, under `scripts/data.ts`.
 
-## Full Setup
-
-### Data-preparation using Python
+## Data-preparation using Python
 
 - First we scrape all the relevant urls from the target HTML document and prepare a urls.text file.
 - Then we use the urls.txt file to go through all the pages and use `unstructured` api to split the pages into context-aware HTML chunks.
