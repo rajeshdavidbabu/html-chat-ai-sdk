@@ -10,6 +10,8 @@ Subscribe to my YT [channel](https://www.youtube.com/@raj_talks_tech/) as I will
 
 ## Quickstart
 
+(Using https://ui.shadcn.com/docs/ scraped and prepared under `scripts/data.ts`)
+
 ### 🗃️ Pre-requisites
 
 - Create a free account and get an OPEN_AI key from platform.openai.com
