@@ -8,7 +8,7 @@ Subscribe to my YT [channel](https://www.youtube.com/@raj_talks_tech/) as I will
 
 ## Demo
 
-## Quickstart
+## 🔮 Quickstart
 
 (Using https://ui.shadcn.com/docs/ scraped and prepared under `scripts/data.ts`)
 
@@ -24,6 +24,8 @@ npm run dev
 ```
 
 ### Sample questions to ask this document:
+
+(Feel free to ask you own)
 
 - Give me a summary ?
 - Is this a component library ?
