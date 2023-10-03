@@ -23,6 +23,20 @@ npm run prepare:data
 npm run dev
 ```
 
+### Sample questions to ask this document:
+
+- Give me a summary ?
+- Is this a component library ?
+- What this document about ?
+- What are the FAQs ?
+- How to install alert component ?
+- How to build a login form ?
+- Is there a frog component ?
+- Is there a temperature component ?
+- Build an e-commerce card component ?
+- What is components.json file about ?
+- How do I use the cli ?
+
 ## How does it work ?
 
 This project is similar to the `pdf-chat-ai-sdk` project but the secret sauce is that how the HTML content is split into chunks. It uses a library called `unstructured`.
