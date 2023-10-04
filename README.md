@@ -8,7 +8,7 @@ Subscribe to my YT [channel](https://www.youtube.com/@raj_talks_tech/) as I will
 
 ## Demo
 
-https://github.com/rajeshdavidbabu/html-chat-ai-sdk/assets/15684795/6a2580a8-15ee-4e41-ab8f-ac325c9efcdb
+<img width="1230" alt="Screenshot 2023-10-04 at 10 51 05" src="https://github.com/rajeshdavidbabu/html-chat-ai-sdk/assets/15684795/96ee79bf-f2f1-417d-b78d-fdeb784f9649">
 
 ## Architecture
 
