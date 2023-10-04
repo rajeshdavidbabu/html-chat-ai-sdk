@@ -10,6 +10,10 @@ Subscribe to my YT [channel](https://www.youtube.com/@raj_talks_tech/) as I will
 
 https://github.com/rajeshdavidbabu/html-chat-ai-sdk/assets/15684795/6a2580a8-15ee-4e41-ab8f-ac325c9efcdb
 
+## Architecture
+
+![Uploading Screenshot 2023-10-04 at 10.51.05.png…]()
+
 
 ## 🔮 Quickstart
 
